@@ -14,6 +14,13 @@ const initializeDatabase = async () => {
             description: "A Roxfort Boszorkány- és Varázslóképző Szakiskolában töltött első tanév kemény erőpróba a diákok számára. Harry Potternek nem csupán a vizsgákon kell megfelelnie, de egy életre-halálra szóló küzdelemnek is részese lesz. A tizenegy éves varázslójelölt története meghódította az egész világot.",
             year: 2024
         },
+        {
+            id: 2,
+            title: "könyv2",
+            author: "iro 2",
+            description: "leirás 2",
+            year: 2022
+        },
 
         ];
 
