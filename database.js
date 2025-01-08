@@ -2,7 +2,7 @@ import sqlite3 from 'sqlite3';
 
 const database = new sqlite3.Database("./database.sqlite");
 
-const initializeDatabase = async () => {
+async function initializeDatabase() {
     await dbRun("DROP TABLE IF EXISTS books");
     await dbRun("CREATE TABLE IF NOT EXISTS books (id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT, author TEXT, description TEXT, year INTEGER) ");
 
